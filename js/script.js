@@ -10,6 +10,6 @@
 // nome
 var nome = prompt("Buongiorno! Inserisci il tuo nome.");
 var cognome = prompt("Bene! Ora inserisci il tuo cognome.");
-var colore = prompt("Bene! Ora, inserisci il tuo colore preferito");
-
-document.getElementById("password").innerHTML = "La tua password è:&nbsp;" + nome + cognome + colore;
+var colore =  prompt("Bene! Ora, inserisci il tuo colore preferito");
+var passWord = nome + cognome + colore;
+document.getElementById("password").innerHTML = "La tua password è:&nbsp;" + passWord.toLowerCase();
